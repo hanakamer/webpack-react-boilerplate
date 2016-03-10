@@ -20,36 +20,26 @@ this plugin detects the missing packages as you require them in your file, and a
 
 ### babel cofiguration contains :
 
-* babel-plugin-array-includes
+* __babel-plugin-array-includes__
 ```
 Replaces arr.includes(val) with arr.indexOf(val) >= 0.
 ```
 
-* babel-plugin-syntax-class-properties
-
-Allow parsing of class properties.
+* __babel-plugin-syntax-class-properties__, allows parsing of class properties.
   
-* babel-plugin-syntax-decorators
-
-Allow parsing of decorators.
+* __babel-plugin-syntax-decorators__,  allows parsing of decorators.
   
-* babel-plugin-syntax-object-rest-spread
-
-Allow parsing of object rest/spread 
+* __babel-plugin-syntax-object-rest-spread__, allows parsing of object rest/spread. 
 ```
 const {a, b, ...props} = this.props
 ```
-* babel-plugin-transform-class-properties
+* __babel-plugin-transform-class-properties__
   
-* babel-plugin-transform-decorators-legacy
-
-to replicate the old decorator behavior from Babel 5
+* __babel-plugin-transform-decorators-legacy__, to replicate the old decorator behavior from Babel 5
   
-* babel-plugin-transform-object-assign
-Replace Object.assign with an inline helper.
+* __babel-plugin-transform-object-assign__, to teplace Object.assign with an inline helper.
  
-*babel-plugin-transform-object-rest-spread
-Compile object rest and spread to ES5
+* __babel-plugin-transform-object-rest-spread__, to compile object rest and spread to ES5
   
 ### Linter
 Extends from [airbnb](https://www.npmjs.com/package/eslint-config-airbnb) configuration.
